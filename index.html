@@ -99,7 +99,7 @@
             <div class="s-hero__scroll">
                 <a href="#about" class="s-hero__scroll-link smoothscroll">
                     <span class="scroll-arrow">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:-ms-filter"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
                     </span>
                     <span class="scroll-text">Scroll Down</span>
                 </a>
@@ -137,12 +137,16 @@
                             </p>
                             
                         </div>
-                        <div class="column w-1000-stack">
-                            <a href="#0" class="btn btn--download">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
-                                Download CV
-                            </a>
-                        </div>
+                       <div class="column w-1000-stack">
+    <a href="files/CV-JUMAMIL.pdf" class="btn btn--download" target="_blank" download>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:-ms-filter">
+            <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path>
+            <path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path>
+        </svg>
+        Download CV
+    </a>
+</div>
+
                     </div>
                 </div>
             </div> <!-- end row -->
@@ -189,165 +193,245 @@
             </div> <!-- s-resume__section -->
 
 
-            <section id="resume" class="s-resume target-section" style="background-color: #f9f9f9; padding: 40px 0;">
-                <div class="row s-resume__section">
-                    <div class="column large-3 tab-12">
-                        <h3 class="section-header-allcaps">Skills</h3>
-                    </div>
-                    <div class="column large-9 tab-12">
-                        <div class="resume-block">
-                            <p>I'm currently learning Java and have experience in other programming languages as well.</p>
-                            <ul class="skills-list">
-                                <li class="skill-item">JAVA</li>
-                                <li class="skill-item">Python</li>
-                                <li class="skill-item">C</li>
-                                <li class="skill-item">C#</li>
-                                <li class="skill-item">CSS</li>
-                                <li class="skill-item">JavaScript</li>
-                                <li class="skill-item">HTML</li>
-                                <li class="skill-item">Assembly</li>
-                            </ul>
-                        </div> <!-- end resume-block -->
-                    </div>
-                </div> <!-- s-resume__section -->
-            
-                <style>
-                    .skills-list {
-                        list-style: none; /* Remove bullet points */
-                        padding: 0; /* Remove padding */
-                        margin-top: 10px; /* Space above the skills list */
-                    }
-            
-                    .skill-item {
-                        background-color: #fff; /* White background for better contrast */
-                        color: #333; /* Dark text color */
-                        padding: 15px; /* Increased padding */
-                        margin-bottom: 10px; /* Space between items */
-                        text-align: left; /* Align text to the left */
-                        border: 1px solid #ccc; /* Subtle border */
-                        border-radius: 5px; /* Slightly rounded corners */
-                        transition: background-color 0.3s; /* Transition for hover effect */
-                    }
-            
-                    .skill-item:hover {
-                        background-color: #f0f0f0; /* Light gray background on hover */
-                    }
-                </style>
-            </section> <!-- end s-resume -->
-            
+           <section id="resume" class="s-resume target-section" style="background-color: #f9f9f9; padding: 40px 0;">
+    <div class="row s-resume__section">
+        <div class="column large-3 tab-12">
+            <h3 class="section-header-allcaps">Skills</h3>
+        </div>
+        <div class="column large-9 tab-12">
+            <div class="resume-block">
+                <p>I'm currently learning Java and have experience in other programming languages, web technologies, hardware platforms, and creative design.</p>
+                
+                <h4>Programming Languages</h4>
+                <ul class="skills-list">
+                    <li class="skill-item">Java</li>
+                    <li class="skill-item">Python</li>
+                    <li class="skill-item">C</li>
+                    <li class="skill-item">C#</li>
+                    <li class="skill-item">Assembly</li>
+                </ul>
+
+                <h4>Web Technologies</h4>
+                <ul class="skills-list">
+                    <li class="skill-item">HTML</li>
+                    <li class="skill-item">CSS</li>
+                    <li class="skill-item">JavaScript</li>
+                </ul>
+
+                <h4>Creative Skills</h4>
+                <ul class="skills-list">
+                    <li class="skill-item">Graphic Designer</li>
+                    <li class="skill-item">Social Media Management</li>
+                </ul>
+
+                <h4>Hardware & Embedded Systems</h4>
+                <ul class="skills-list">
+                    <li class="skill-item">Arduino</li>
+                </ul>
+            </div> <!-- end resume-block -->
+        </div>
+    </div> <!-- s-resume__section -->
+
+    <style>
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skill-item {
+            background-color: #fff;
+            color: #333;
+            padding: 15px;
+            margin-bottom: 10px;
+            text-align: left;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .skill-item:hover {
+            background-color: #f0f0f0;
+        }
+
+        h4 {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</section> <!-- end s-resume -->
 
 
         <!-- portfolio
         ================================================== -->
-       <section id="portfolio" class="s-portfolio target-section">
-    <div class="row s-portfolio__header">
-        <div class="column large-12">
-          
-         <h3 style="margin-bottom: 60px;">A Few Of My Latest Creations</h3>
-
-<style>
-  .project-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-
-  .project-card {
-    text-align: center;
-    width: 300px;
-  }
-
-  .project-button-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 8px;
-    border: none;
-    border-radius: 6px;
-    padding: 6px 12px;
-    background-color: #f0f0f0;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-  }
-
-  .project-button-img:hover {
-    background-color: #e0e0e0;
-    transform: scale(1.03);
-  }
-
-  .source-button {
-    font-size: 12px;
-    padding: 4px 8px;
-    margin-top: 6px;
-    cursor: pointer;
-  }
-
-  .project-title {
-    font-size: 14px;
-    margin-top: 8px;
-  }
-</style>
-
-<div class="project-grid">
-
-  <!-- Java Project -->
-  <div class="project-card">
-    <a href="images/numerical methods.jpg" target="_blank" style="text-decoration: none; color: inherit;">
-      <img src="images/numerical methods.jpg" alt="Numerical Methods Visualizer" class="project-button-img">
-      <span class="project-title">Numerical Methods Visualizer - JAVA</span>
-    </a>
-    <a href="https://drive.google.com/drive/folders/1M0iwsOHsw_tIanqvWpHoy1YhjA_vsZR_" target="_blank" rel="noopener noreferrer">
-      <button class="source-button">View Source Code</button>
-    </a>
+    <section id="portfolio" class="s-portfolio target-section">
+  <div class="row s-portfolio__header">
+    <div class="column large-12">
+      <h3 style="margin-bottom: 60px;">A Few Of My Latest Creations</h3>
+    </div>
   </div>
 
-  <!-- MATLAB Project -->
-  <div class="project-card">
-    <a href="images/jh.png" target="_blank" style="text-decoration: none; color: inherit;">
-      <img src="images/jh.png" alt="Numerical Methods Visualizer MATLAB" class="project-button-img">
-      <span class="project-title">Numerical Methods Visualizer - MATLAB</span>
+  <style>
+    .project-grid {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .project-card {
+      text-align: center;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .project-button-img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 8px;
+      border: none;
+      border-radius: 6px;
+      padding: 6px 12px;
+      background-color: #f0f0f0;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.2s;
+    }
+
+    .project-button-img:hover {
+      background-color: #e0e0e0;
+      transform: scale(1.03);
+    }
+
+    .hover-thumbnail {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 6px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hover-thumbnail:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .source-button {
+      font-size: 12px;
+      padding: 4px 8px;
+      margin-top: 6px;
+      cursor: pointer;
+    }
+
+    .project-title {
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    .section-subtitle {
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      margin: 60px 0 30px;
+    }
+  </style>
+
+  <!-- 🧑‍💻 Programming Section -->
+  <h4 class="section-subtitle">Programming Projects</h4>
+  <div class="project-grid">
+
+    <!-- Java Project -->
+    <div class="project-card">
+      <a href="images/numerical methods.jpg" target="_blank" style="text-decoration: none; color: inherit;">
+        <img src="images/numerical methods.jpg" alt="Numerical Methods Visualizer" class="project-button-img">
+        <span class="project-title">Numerical Methods Visualizer - JAVA</span>
+      </a>
+      <a href="https://drive.google.com/drive/folders/1M0iwsOHsw_tIanqvWpHoy1YhjA_vsZR_" target="_blank" rel="noopener noreferrer">
+        <button class="source-button">View Source Code</button>
+      </a>
+    </div>
+
+    <!-- MATLAB Project -->
+    <div class="project-card">
+      <a href="images/jh.png" target="_blank" style="text-decoration: none; color: inherit;">
+        <img src="images/jh.png" alt="Numerical Methods Visualizer MATLAB" class="project-button-img">
+        <span class="project-title">Numerical Methods Visualizer - MATLAB</span>
+      </a>
+      <a href="https://drive.google.com/drive/folders/1unCBNOhQ1Xo59ffy8rHrV77sc369ID8R" target="_blank" rel="noopener noreferrer">
+        <button class="source-button">View Source Code</button>
+      </a>
+    </div>
+
+    <!-- Documentation PDF + YouTube -->
+    <div class="project-card">
+  <div style="display: flex; gap: 10px; width: 100%;">
+    <a href="https://drive.google.com/drive/folders/1_EsBgdRUOFb0vJWqUbCnXPu6qkxrvNHK" target="_blank" style="flex: 1; text-decoration: none;">
+      <img src="images/pdf-numerical%20methods.png" alt="PDF Thumbnail" class="project-button-img hover-thumbnail" style="height: 160px; object-fit: cover;">
     </a>
-    <a href="https://drive.google.com/drive/folders/1unCBNOhQ1Xo59ffy8rHrV77sc369ID8R" target="_blank" rel="noopener noreferrer">
-      <button class="source-button">View Source Code</button>
+    <a href="https://www.youtube.com/watch?v=pDePYZmg0M4" target="_blank" style="flex: 1; text-decoration: none;">
+      <img src="images/youtubevideo.png" alt="Numerical Methods YouTube Video" class="project-button-img hover-thumbnail" style="height: 160px; object-fit: cover;">
     </a>
   </div>
-
- <!-- Documentation PDF + YouTube Thumbnail Side by Side in One Card -->
-<div class="project-card">
-  <div style="display: flex; gap: 10px;">
-    <!-- PDF Image -->
-    <a href="https://drive.google.com/drive/folders/1_EsBgdRUOFb0vJWqUbCnXPu6qkxrvNHK" target="_blank" style="flex: 1; text-decoration: none; color: inherit;">
-      <img src="images/pdf-icon.png" alt="Numerical Methods Documentation PDF" class="project-button-img" style="background-color:#fff; padding: 20px; height: 100%;">
-    </a>
-
-    <!-- YouTube Thumbnail -->
-    <a href="https://www.youtube.com/watch?v=pDePYZmg0M4" target="_blank" style="flex: 1; text-decoration: none; color: inherit;">
-      <img src="https://img.youtube.com/vi/pDePYZmg0M4/0.jpg" alt="Numerical Methods YouTube Video" class="project-button-img" style="height: 100%;">
-    </a>
-  </div>
-
-  <!-- Title -->
-  <div class="project-title">Documentation (PDF) & Video Walkthrough</div>
-
-  <!-- Buttons -->
-  <div style="display: flex; justify-content: space-between; gap: 10px; margin-top: 6px;">
-    <a href="https://drive.google.com/drive/folders/1_EsBgdRUOFb0vJWqUbCnXPu6qkxrvNHK" target="_blank" rel="noopener noreferrer" style="flex: 1;">
+  <span class="project-title">Documentation (PDF) & Video Walkthrough</span>
+  <div style="display: flex; gap: 10px; width: 100%; margin-top: 6px;">
+    <a href="https://drive.google.com/drive/folders/1_EsBgdRUOFb0vJWqUbCnXPu6qkxrvNHK" target="_blank" style="flex: 1;">
       <button class="source-button" style="width: 100%;">Open PDF</button>
     </a>
-    <a href="https://www.youtube.com/watch?v=pDePYZmg0M4" target="_blank" rel="noopener noreferrer" style="flex: 1;">
+    <a href="https://www.youtube.com/watch?v=pDePYZmg0M4" target="_blank" style="flex: 1;">
       <button class="source-button" style="width: 100%;">Watch Video</button>
     </a>
   </div>
 </div>
 
+</div> <!-- End Programming Section -->
 
-</div>
+  <!-- 🎨 Graphic Design Section -->
+  <h4 class="section-subtitle">Graphic Design Works</h4>
+  <div class="project-grid">
 
-            </div> <!-- end modal -->
+    <!-- IBCC 2023 Poster -->
+    <div class="project-card">
+      <a href="images/ibcc-2023.jpg" target="_blank">
+        <img src="images/ibcc-2023.jpg" alt="IBCC 2023 Poster" class="project-button-img">
+        <span class="project-title">IBCC 2023 Poster</span>
+      </a>
+    </div>
 
+    <!-- IBCC 2023 Video -->
+    <div class="project-card">
+      <video class="project-button-img" controls>
+        <source src="videos/ibcc-2023.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <span class="project-title">IBCC 2023 Promotional Video</span>
+    </div>
 
-        </section> <!-- end s-portfolio -->
+    <!-- IBCC 2025 Poster -->
+    <div class="project-card">
+      <a href="images/ibcc-2025.png" target="_blank">
+        <img src="images/ibcc-2025.png" alt="IBCC 2025 Poster" class="project-button-img">
+        <span class="project-title">IBCC 2025 Poster</span>
+      </a>
+    </div>
+
+    <!-- IBCC 2025 Video -->
+    <div class="project-card">
+      <video class="project-button-img" controls>
+        <source src="videos/ibcc-2025.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <span class="project-title">IBCC 2025 Promotional Video</span>
+    </div>
+
+  </div> <!-- End Graphic Design Section -->
+
+</section>
+       
+</section> <!-- end s-portfolio -->
 
 
         <!-- CTA
